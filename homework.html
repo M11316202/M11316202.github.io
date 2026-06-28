@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>交作業 | 2026 AI</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html#home">2026 AI</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html#home">首頁</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#about">關於我</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#projects">我的專案</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#contact">聯絡我</a></li>
+                    <li class="nav-item"><a class="nav-link" href="homework.html">交作業</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="project-header">
+        <div class="container">
+            <a href="index.html" class="back-btn">
+                <i class="fas fa-arrow-left"></i> 返回首頁
+            </a>
+            <h1 class="project-title mt-3"><i class="fas fa-upload me-2"></i>交作業</h1>
+            <p class="project-subtitle">作業上傳功能建置中，敬請期待</p>
+        </div>
+    </section>
+
+    <!-- Content -->
+    <section class="section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="portfolio-cta fade-in">
+                        <i class="fas fa-tools"></i>
+                        <h4 style="color: var(--navy-deep); font-weight: 700;">功能開發中</h4>
+                        <p class="text-muted mt-2">
+                            此頁面預留給未來的「線上交作業」功能（例如檔案上傳、表單提交、作業狀態查詢等）。<br>
+                            目前尚未啟用，請依課堂公告的方式繳交作業。
+                        </p>
+                        <a href="index.html" class="btn-elegant">
+                            <i class="fas fa-arrow-left"></i> 返回首頁
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Dr. Pin Luarn. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelectorAll('.fade-in').forEach(el => el.classList.add('visible'));
+        });
+    </script>
+</body>
+</html>
